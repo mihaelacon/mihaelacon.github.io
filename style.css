@@ -1,0 +1,129 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(247, 218, 235); */
+  background: #f6f5ff;
+}
+
+#headercv {
+  display: flex;
+  flex-direction: row;
+}
+
+#poza {
+  flex: 2;
+}
+
+#nume {
+  flex: 3;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#side-menu {
+  flex: 2;
+}
+
+#main {
+  flex: 3;
+}
+
+p {
+  color: rgb(246, 23, 182);
+}
+
+#motto {
+  /* text-align: center; */
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  color: #470561;
+}
+
+#motto span {
+  font-weight: bold;
+  font-size: large;
+}
+
+.favorite {
+  font-weight: bold;
+  color: green;
+}
+
+.bodyul {
+  /* background-color: rgb(247, 218, 235); */
+}
+
+#top-menu-bar {
+  text-align: center;
+  background-color: #470561;
+}
+
+#top-menu-bar li {
+  display: inline;
+  margin: 0px;
+  padding: 0;
+  font-weight: bold;
+  color: white;
+}
+
+#top-menu-bar a {
+  color: #fff;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+#top-meniu-bar a:visited {
+  color: #fff;
+}
+
+#top-menu-bar a:hover {
+  color: #334455;
+  background: #fff;
+}
+
+td {
+  background-color: aliceblue;
+  color: #470561;
+  font-weight: bold;
+}
+
+#buton1 {
+  /* background-color: #470561; */
+  /* color: aliceblue; */
+}
+
+/* #buton1 :hover {
+    background-color: aquamarine;
+    color: red;
+} */
+
+.page {
+  background: #fff;
+  /* color: red; */
+  border-radius: 0.5rem;
+  margin-bottom: 1.6rem;
+  margin-right: 1.6rem;
+  border: 1px solid gray;
+  padding: 1.6rem;
+  box-shadow: 0 4px 8px rgba(87, 35, 201, 0.57);
+}
+
+.page h3 {
+  margin-top: 0;
+}
+
+.pozamea {
+  padding: 12px;
+}
