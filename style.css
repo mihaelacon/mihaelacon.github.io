@@ -20,6 +20,10 @@ body {
   flex: 2;
 }
 
+.pozamea {
+  padding: 12px;
+}
+
 #nume {
   flex: 3;
 }
@@ -122,8 +126,4 @@ td {
 
 .page h3 {
   margin-top: 0;
-}
-
-.pozamea {
-  padding: 12px;
 }
