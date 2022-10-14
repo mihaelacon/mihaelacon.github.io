@@ -6,4 +6,4 @@ console.error("started");
 var myName = "Mihaela";
 var age = 19;
 
-console.info("My name is " + myName + ",I'm " + age + " years old.");
+console.info("My name is " + myName + ", I'm " + age + " years old.");
