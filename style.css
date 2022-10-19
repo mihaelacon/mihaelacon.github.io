@@ -42,7 +42,7 @@ h1 {
   color: rgb(168, 135, 164);
 }
 
-#nume {
+#numele {
   flex: 12;
   margin-top: 15px;
 }
@@ -58,6 +58,15 @@ h1 {
   flex: 2;
 }
 
+.form-input {
+  padding: 5px 0;
+}
+
+.buton {
+  padding: 17px 0;
+  margin-left: 47px;
+}
+
 #main {
   flex: 3;
 }
@@ -69,7 +78,7 @@ p {
 #motto {
   /* text-align: center; */
   text-align: left;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: large;
   color: #470561;
 }
@@ -123,8 +132,11 @@ td {
 }
 
 #buton1 {
-  /* background-color: #470561; */
-  /* color: aliceblue; */
+  background-color: #aadbb7;
+  color: rgb(131, 77, 225);
+  /* border-color: chartreuse; */
+  border-color: #0ff165;
+  /* border-color: #2aa1d7; */
 }
 
 /* #buton1 :hover {
