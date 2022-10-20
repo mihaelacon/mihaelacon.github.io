@@ -14,6 +14,7 @@ body {
 #headercv {
   display: flex;
   flex-direction: row;
+  background-color: #d2eaf6;
 }
 
 #poza {
@@ -22,12 +23,12 @@ body {
 
 #poza img {
   border-radius: 50%;
-  border: 4px solid #f6f5ff;
+  border: 4px solid #add4e9;
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 35px;
 }
 .pozamea {
-  padding: 12px;
+  /* padding: 12px; */
   /* border-radius: 80%;
   border: 4px solid #f6f5ff;
   margin-top: 15px;
@@ -98,6 +99,8 @@ p {
 }
 
 #top-menu-bar {
+  margin: 0;
+  padding: 0;
   text-align: center;
   background-color: #470561;
 }
@@ -112,8 +115,10 @@ p {
 
 #top-menu-bar a {
   color: #fff;
-  padding: 0 15px;
   text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  margin: 4px 0;
+  display: inline-flex;
 }
 
 #top-meniu-bar a:visited {
@@ -126,17 +131,20 @@ p {
 }
 
 td {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   color: #470561;
   font-weight: bold;
 }
 
 #buton1 {
-  background-color: #aadbb7;
+  /* background-color: #aadbb7; */
   color: rgb(131, 77, 225);
   /* border-color: chartreuse; */
-  border-color: #0ff165;
+  /* border-color: #0ff165; */
   /* border-color: #2aa1d7; */
+  /* border-color: #0ff165; */
+  background-color: #f1f4f7;
+  border-color: rgb(196, 231, 231);
 }
 
 /* #buton1 :hover {
@@ -151,8 +159,29 @@ td {
   margin-bottom: 1.6rem;
   margin-right: 1.6rem;
   border: 1px solid gray;
-  padding: 1.6rem;
+  /* padding: 1.6rem; */
+  padding: 24px;
   box-shadow: 0 4px 8px rgba(87, 35, 201, 0.57);
+}
+
+#languages table th,
+#languages table td {
+  border: 1px solid #7707ab;
+  padding: 5px;
+}
+
+th {
+  background: #d1e7ea;
+}
+
+#languages table {
+  width: 70%;
+  /* min-width: 350px; */
+  border-collapse: collapse;
+}
+
+th {
+  background: #e2dded;
 }
 
 .page h3 {

@@ -27,7 +27,7 @@ console.warn(mottoElement.innerHTML);
 //atribui lui mottoElement.innerHTML valoarea lui jobTitle
 //mottoElement.innerHTML = mottoElement.innerHTML + " & " + jobTitle;
 //console.info(mottoElement);
-mottoElement.innerHTML += " & " + jobTitle;
+// mottoElement.innerHTML += " & " + jobTitle;
 age += age;
 console.info(age);
 
