@@ -1,5 +1,7 @@
-# mihaelacon.github.io
-My personal CV
+# My personal CV
+
+This is my CV create with HTML, CSS ans JavaScript
 
 ## LIVE
-[Demo](https://mihaelacon.github.io/mihaelacon.github.io/)
+
+[mihaelacon.github.io](https://mihaelacon.github.io/)
