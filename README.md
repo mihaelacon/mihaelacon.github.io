@@ -1,7 +1,7 @@
 # My personal CV
 
-This is my CV create with HTML, CSS ans JavaScript
+This is my CV created with HTML, CSS and JS.
 
-## LIVE
+## Live
 
 [mihaelacon.github.io](https://mihaelacon.github.io/)
