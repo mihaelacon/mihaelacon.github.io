@@ -23,7 +23,7 @@ body {
 
 #poza img {
   border-radius: 50%;
-  border: 4px solid #add4e9;
+  border: 4px solid #89b6ce;
   margin-top: 15px;
   margin-left: 35px;
 }
@@ -57,7 +57,7 @@ h1 {
 
 #side-menu {
   /* flex: 2; */
-  flex: 1;
+  flex: 2;
 }
 
 .form-input {
@@ -71,13 +71,13 @@ h1 {
 
 #main {
   /* flex: 3; */
-  flex: 4;
+  flex: 7;
 }
 
 p {
-  color: rgb(246, 23, 182);
+  /* color: rgb(246, 23, 182); */
+  color: rgb(68 8 145);
 }
-
 #motto {
   /* text-align: center; */
   text-align: left;
@@ -140,7 +140,7 @@ td {
 
 #buton1 {
   /* background-color: #aadbb7; */
-  color: rgb(131, 77, 225);
+  color: rgb(93 10 200);
   /* border-color: chartreuse; */
   /* border-color: #0ff165; */
   /* border-color: #2aa1d7; */
@@ -164,6 +164,17 @@ td {
   border: 1px solid gray;
   /* padding: 1.6rem; */
   padding: 24px;
+  box-shadow: 0 4px 8px rgba(87, 35, 201, 0.57);
+}
+
+.form {
+  background: #fff;
+  margin-right: 10px;
+  /* color: red; */
+  border-radius: 0.5rem;
+  border: 1px gray;
+  /* padding: 1.6rem; */
+  padding: 5px;
   box-shadow: 0 4px 8px rgba(87, 35, 201, 0.57);
 }
 
@@ -191,5 +202,7 @@ th {
   margin-top: 0;
 }
 #hometext {
-  color: #0712ab;
+  /* color: #0712ab; */
+  color: rgb(52 4 115);
+  margin-left: 15px;
 }
