@@ -28,10 +28,12 @@
       </section>
 
       <ul id="top-menu-bar">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Languages</a></li>
+        <li><a href="#" onclick="showHomePage()">HOME</a></li>
+        <li><a href="#" onclick="showSkillsPage()">Skills</a></li>
+        <li>
+          <a href="#" onclick="showProjectsPage()">Projects</a>
+        </li>
+        <li><a href="#" onclick="showLanguagesPage()">Languages</a></li>
       </ul>
     </header>
     <section id="content">
@@ -64,26 +66,39 @@
         <section></section>
       </div>
       <div id="main">
-        <div class="page">
+        <div id="home" class="page">
           <h2>Home</h2>
           <p id="hometext">
             Hello !!!... <br />
-            Welcome to my page ! I hope you like it, I did my best.<br />
-            I continue to work here...
+            Welcome to my page ! <br />
+            This is my personal CV. <br />
+            It's about me, I hope you like it!... <br />
+            <!-- I continue to work here... -->
           </p>
         </div>
 
-        <div class="page">
+        <div id="skills" class="page">
           <h3>Skills</h3>
           <ul>
-            <li class="favorite">html</li>
-            <li>css</li>
-            <li class="favorite">js</li>
+            <!-- <li class="favorite">html</li> -->
+            <li>HTML</li>
+            <br />
+            <li>CSS</li>
+            <br />
+            <li>JavaScript</li>
           </ul>
         </div>
 
-        <div class="page">
+        <div id="projects" class="page">
           <h1>Projects</h1>
+          <ul>
+            <li>This project - My personal CV</li>
+            <br />
+            <li>
+              <a href="https://aurelian2020.github.io/meteo/">METEO project</a>
+              - Made in collaboration with Aurelian Constantin
+            </li>
+          </ul>
         </div>
 
         <div id="languages" class="page">

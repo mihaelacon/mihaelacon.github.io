@@ -56,7 +56,8 @@ h1 {
 }
 
 #side-menu {
-  flex: 2;
+  /* flex: 2; */
+  flex: 1;
 }
 
 .form-input {
@@ -69,7 +70,8 @@ h1 {
 }
 
 #main {
-  flex: 3;
+  /* flex: 3; */
+  flex: 4;
 }
 
 p {
@@ -153,6 +155,7 @@ td {
 } */
 
 .page {
+  display: none;
   background: #fff;
   /* color: red; */
   border-radius: 0.5rem;
@@ -188,5 +191,5 @@ th {
   margin-top: 0;
 }
 #hometext {
-  color: #7707ab;
+  color: #0712ab;
 }
