@@ -57,7 +57,7 @@ h1 {
 
 #side-menu {
   /* flex: 2; */
-  flex: 2;
+  flex: 3;
 }
 
 .form-input {
@@ -71,7 +71,7 @@ h1 {
 
 #main {
   /* flex: 3; */
-  flex: 7;
+  flex: 12;
 }
 
 p {
@@ -161,6 +161,7 @@ td {
   border-radius: 0.5rem;
   margin-bottom: 1.6rem;
   margin-right: 1.6rem;
+  margin-left: 1.6rem;
   border: 1px solid gray;
   /* padding: 1.6rem; */
   padding: 24px;
@@ -205,4 +206,15 @@ th {
   /* color: #0712ab; */
   color: rgb(52 4 115);
   margin-left: 15px;
+}
+
+#side-menu section {
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+  border-radius: 2px;
+}
+
+#contact-form {
+  padding-left: 15px;
 }
